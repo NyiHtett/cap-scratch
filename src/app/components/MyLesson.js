@@ -1,5 +1,5 @@
 'use client'
-import Image from 'next/image'
+
 import React from 'react'
 import MyButton from './MyButton'
 export default function MyLesson({image, description, navigate}) {
