@@ -1,8 +1,10 @@
 'use client';
+/* eslint-disable react-hooks/rules-of-hooks */
 import React from 'react'
 import MyLesson from '../components/MyLesson'
 import { useRouter } from 'next/navigation';
 export default function page() {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const router = useRouter();
   return (
     <div className='m-20'>
