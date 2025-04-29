@@ -1,7 +1,7 @@
 'use client'
-
 import React from 'react'
 import MyButton from './MyButton'
+import Image from 'next/image'
 export default function MyLesson({image, description, navigate}) {
   return (
     <div className="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden">
