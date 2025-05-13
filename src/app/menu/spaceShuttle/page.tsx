@@ -19,7 +19,6 @@ import lemonCode1 from './lemonCode1.png'
 import lemonCode2 from './lemonCode2.png'
 import update from './update.png'
 import enemyHit from './enemyHit.png'
-import { Block } from "blockly";
 export default function page() {
   return (
     <div className="my-global-class">
@@ -138,7 +137,7 @@ export default function page() {
         {/* Left Column */}
         <div className="flex-1 space-y-4">
           <h1 className="text-2xl font-bold">Day 2</h1>
-          <h1 className="text-2xl font-bold">Let's add the sound effects</h1>
+          <h1 className="text-2xl font-bold">Let add the sound effects</h1>
           <a
             href="https://scratch.mit.edu/projects/548866331/editor/"
             className="text-2xl font-bold text-blue-500 underline"
@@ -217,7 +216,7 @@ export default function page() {
       <div className="flex flex-col md:flex-row gap-8 p-8">
         {/* Left Column */}
         <div className="flex-1 space-y-4">
-          <h1 className="text-2xl font-bold"> Let's add moving objects so that the spaceship can shoot </h1>
+          <h1 className="text-2xl font-bold"> Let add moving objects so that the spaceship can shoot </h1>
           <Image
             src={moving}
             alt="laser Block"
