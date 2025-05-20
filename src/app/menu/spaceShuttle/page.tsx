@@ -301,7 +301,7 @@ export default function page() {
       <div className="flex flex-col md:flex-row gap-8 p-8">
         {/* Left Column */}
         <div className="flex-1 space-y-4">
-          <h1 className="text-2xl font-bold">Let change the object's color to white when it gets hit</h1>
+          <h1 className="text-2xl font-bold">Let change the object color to white when it gets hit</h1>
         </div>
 
         {/* Right Column */}
