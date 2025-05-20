@@ -19,6 +19,7 @@ import lemonCode1 from './lemonCode1.png'
 import lemonCode2 from './lemonCode2.png'
 import update from './update.png'
 import enemyHit from './enemyHit.png'
+import updateWhite from './updateWhite.png'
 export default function page() {
   return (
     <div className="my-global-class">
@@ -288,6 +289,26 @@ export default function page() {
 <h1 className="text-2xl font-bold">Add this code in object</h1>
           <Image
             src={enemyHit}
+            alt="laser Block"
+            width={800}
+            height={800}
+            className="rounded-xl shadow-md"
+          />
+        </div>
+      </div>
+      <h1 className="text-3xl font-bold text-center m-10"> Congratulations buddy 🎊! you have created the first draft of the game</h1>
+      <h1 className="text-3xl font-bold text-center m-10"> Now let's add visual effects ! </h1>
+      <div className="flex flex-col md:flex-row gap-8 p-8">
+        {/* Left Column */}
+        <div className="flex-1 space-y-4">
+          <h1 className="text-2xl font-bold">Let's change the object's color to white when it gets hit</h1>
+        </div>
+
+        {/* Right Column */}
+        <div className="flex-1 space-y-4">
+          <h1 className="text-2xl font-bold">Include health and update New Enemy and Enemy Hit code blocks</h1>
+          <Image
+            src={updateWhite}
             alt="laser Block"
             width={800}
             height={800}
