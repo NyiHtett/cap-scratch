@@ -297,7 +297,7 @@ export default function page() {
         </div>
       </div>
       <h1 className="text-3xl font-bold text-center m-10"> Congratulations buddy 🎊! you have created the first draft of the game</h1>
-      <h1 className="text-3xl font-bold text-center m-10"> Now let's add visual effects ! </h1>
+      <h1 className="text-3xl font-bold text-center m-10"> Now lets add visual effects ! </h1>
       <div className="flex flex-col md:flex-row gap-8 p-8">
         {/* Left Column */}
         <div className="flex-1 space-y-4">
